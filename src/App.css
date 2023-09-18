@@ -48,7 +48,13 @@
 .import button{
   width:70px;
   height:70px;
-  border:1px solid;
+  border:1px solid black;
   font-size: 30px;
   text-align: center;
+}
+
+@media only screen and(min-width:428px){
+  .import button {
+    border:1px solid black;
+  }
 }
