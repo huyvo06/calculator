@@ -1,23 +1,27 @@
 #root{
   justify-content: center;
   display: flex;
+  width:100%;
 }
 
 .flex-container{
   background-color: black;
   width:280px;
   height:466px;
+  display: flex;
+  flex-direction: column;
 }
 .result{
   width:auto;
-  height:25%;
+  height:170px;
 }
 
 .import{
   background-color: aqua;
   width: 280px;
-  height:75%;
+  height:500px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .import .import1{
@@ -53,8 +57,35 @@
   text-align: center;
 }
 
-@media only screen and(min-width:428px){
-  .import button {
+.under .so{
+  width:140px;
+}
+
+@media screen and (max-height:477px){
+  .flex-container{
+    height:350px;
+    width:220px;
+  }
+  .import{
+    height:550px;
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .import .import1{
+    width:165px;
+  }
+  .import .import2{
+    width:53px;
+  }
+  .import button{
+    width:55px;
+    height:55px;
     border:1px solid black;
+    font-size: 15px;
+    text-align: center;
+  }
+  .under .so{
+    width:110px;
   }
 }

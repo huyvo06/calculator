@@ -5,13 +5,13 @@ import './App.css'
 
 function App() {
   
-
   return (
     <>
       <div className="flex-container" >  
         <div className="result">
              
         </div>
+        
         <div className="import">
           <div className="import1">
             <div className="on">
@@ -29,7 +29,7 @@ function App() {
               <button>1</button>
               <button>2</button>
               <button>3</button>
-              <button style={{width:'140px'}}>0</button>
+              <button className='so'>0</button>
               <button>.</button>
             </div>
           </div>
