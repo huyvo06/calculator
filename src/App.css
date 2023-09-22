@@ -9,7 +9,7 @@ body{
 }
 
 .flex-box{
-  width: 25%;
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ body{
 .inputs{
   display: flex;
   color:black;
-  height:60vh;
+  height:70vh;
   flex-wrap: wrap;
   flex-direction: row;
 }
