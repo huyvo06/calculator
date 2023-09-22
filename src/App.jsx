@@ -7,32 +7,30 @@ function App() {
   
   return (
     <>
-    <div className="container">
       <div className="flex-box" >  
-        <div className="result">
-             
+        <div className="result"></div>
+        <div className="inputs">
+          <div className="input" style={{backgroundColor:'gray'}}>C</div>
+          <div className="input" style={{backgroundColor:'gray'}}>+</div>
+          <div className="input" style={{backgroundColor:'gray'}}>%</div>
+          <div className="input" style={{backgroundColor:'orange'}}>/</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)'}}>7</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)'}}>8</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)'}}>9</div>
+          <div className="input" style={{backgroundColor:'orange'}}>*</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)'}}>4</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)'}}>5</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)'}}>6</div>
+          <div className="input" style={{backgroundColor:'orange'}}>-</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)'}}>1</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)'}}>2</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)'}}>3</div>
+          <div className="input" style={{backgroundColor:'orange'}}>+</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)', flex:'50%'}}>0</div>
+          <div className="input" style={{backgroundColor:'rgb(224, 224, 224)'}}>.</div>
+          <div className="input" style={{backgroundColor:'orange'}}>=</div>
         </div>
-            <button className="gray">C</button>
-            <button className="gray">±</button>
-            <button className="gray">%</button>
-            <button className="orange">÷</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button className="orange">×</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button className="orange">-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button className="orange">+</button>
-            <button className='zero'>0</button>
-            <button>.</button>
-            <button className="orange">=</button>
-          </div>
-          </div>
+      </div>
     </>
   )
 }
