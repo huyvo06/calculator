@@ -7,41 +7,32 @@ function App() {
   
   return (
     <>
-      <div className="flex-container" >  
+    <div className="container">
+      <div className="flex-box" >  
         <div className="result">
              
         </div>
-        
-        <div className="import">
-          <div className="import1">
-            <div className="on">
-              <button>C</button>
-              <button>±</button>
-              <button>%</button>
-            </div>
-            <div className="under">
-              <button>7</button>
-              <button>8</button>
-              <button>9</button>
-              <button>4</button>
-              <button>5</button>
-              <button>6</button>
-              <button>1</button>
-              <button>2</button>
-              <button>3</button>
-              <button className='so'>0</button>
-              <button>.</button>
-            </div>
+            <button className="gray">C</button>
+            <button className="gray">±</button>
+            <button className="gray">%</button>
+            <button className="orange">÷</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button className="orange">×</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button className="orange">-</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button className="orange">+</button>
+            <button className='zero'>0</button>
+            <button>.</button>
+            <button className="orange">=</button>
           </div>
-          <div className="import2">
-            <button>÷</button>
-            <button>×</button>
-            <button>-</button>
-            <button>+</button>
-            <button>=</button>
           </div>
-        </div>
-      </div>
     </>
   )
 }
